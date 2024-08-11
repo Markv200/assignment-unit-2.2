@@ -77,10 +77,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and assign it a boolean value of true
+// make another variable called age and assign it a value of 34
+// make another variable called zip and assign it a value of 55407
+// We make a conditional checking to see if isStudent equals to true and zip is greater than 80000 to console.log 'You're a student on the west coast'
+// which it isn't so we skip over that code
+// The second 'if' chain states isStudent equals to false or age is less than 30 to console.log 'What are your hobbies?'
+// this if chain is not true so we go to the next else chain
+// The next else if chain is if isStudent equals to true to console.log 'Welcome to Prime'
+// The last else chain is if none of the other else if chains work to console.log 'How about the weather?'
+// We console.log 'Welcome to Prime'
 
 //CODE
 /*
