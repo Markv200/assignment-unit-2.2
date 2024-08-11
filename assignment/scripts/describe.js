@@ -143,7 +143,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+Problem: Instructions say colorOne is blue but code says red
+Solutions: Change colorOne from red to blue
 let colorOne = 'red';
+Problem: Instructions say colorTwo is red but code says blue
+Solution: Change colorTwo from blue to red
 let colorTwo = 'blue';
 let mix = true;
 
@@ -159,7 +163,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+Problem: Instructions is saying an 'and' compound conditional but code is insisting if it's a 'or' compound conditional
+Solution: Switch || to &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -173,8 +178,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+Problem: minAge is less than or equal to age
+Solution: change code to 'age >= minAge' 
 if(minAge <= age) {
-  console.log('no entry');
+Problem: the console.log will say 'no entry' when instructions want 'enter'
+Solution: Switch console.log around to have 'enter' first and 'no entry' as the else chain  
+console.log('no entry');
 } else {
   console.log('enter');
 }
