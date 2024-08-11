@@ -26,12 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
-//
-//
+// We make a variable called name and assign it a value of Dane   
+// So we make a conditional checking if the name variable is also/exactly equal to Mary
+//it'll code/console.log 'Hi, Mary'
+//if it doesn't it'll code 'How do you do'
+//Dane doesn't equal or is the same as Mary
+//so we console.log 'How do you do?'
 //
 
 //CODE
@@ -48,10 +48,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret  
+// Make another variable called code and assign it a value of 123
+// Then we make a conditional checking if code is exactly 123 which it is then the value of secret will be 'super'
+// After, the code is multiplied by 2 resulting in a second if conditional stating 
+// Then we check if the updated code is greater than 250 if true value of secret will be 'duper' 
+//246 isn't greater than 250
+//So we console.log secret 'super'
+
 
 //CODE
 /*
